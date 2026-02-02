@@ -1,0 +1,55 @@
+SELECT *
+FROM stg_Superstore;
+
+-- total sales, total profit, profit margin, and total orders
+
+
+SELECT SUM(Sales) AS total_revenue
+FROM stg_Superstore;
+-- 1.131.591.720
+
+
+
+SELECT SUM(Profit) AS total_profit
+FROM stg_Superstore; 
+-- 1.799.876.960
+
+
+SELECT CONCAT(ROUND(((SUM(profit) / SUM(sales)) * 100.0),2), '%') AS profit_margin
+FROM stg_Superstore;
+-- 159.06%
+
+
+SELECT COUNT(DISTINCT Order_ID)
+FROM stg_Superstore;
+-- 5.009
+
+
+-- monthly performance trends
+
+
+WITH monthly_data AS
+(
+SELECT DATETRUNC(MONTH, order_date) AS sales_month,
+        SUM(sales) AS total_sales
+FROM stg_Superstore
+GROUP BY DATETRUNC(MONTH, order_date)
+), lagged_sales AS
+(
+SELECT sales_month,
+        total_sales,
+        LAG(total_sales,1) OVER(ORDER BY sales_month) AS previous_month_sales
+FROM monthly_data
+)
+SELECT sales_month,
+       total_sales,
+       previous_month_sales,
+       (total_sales - previous_month_sales) AS difference_sales,
+       CONCAT(ROUND(((total_sales - previous_month_sales) / previous_month_sales) * 100.0,2),'%') AS growth_percentage,
+       CASE
+            WHEN (total_sales - previous_month_sales) > 0 THEN 'Increased'
+           ELSE 'Decreased'
+        END AS monthly_growth_status
+FROM lagged_sales
+GROUP BY sales_month, total_sales, previous_month_sales
+;
