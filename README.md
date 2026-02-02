@@ -182,6 +182,7 @@ Key Factors:
 * Most features have negligible impact, indicating a stable and interpretable model.
 
 
+
 This model conclude that Faster delivery is primarily driven by shipping choice, not customer location or order timing.
 
 
