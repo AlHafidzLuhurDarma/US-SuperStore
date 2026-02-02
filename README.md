@@ -1,5 +1,18 @@
 # Sales Performance Report | US-SuperStore
 
+## Table of Content
+
+* Client Background
+* Executive Summary
+* Insight Deep-Dive
+  * Sales Trends
+  * Average Order Value
+  * Order Count 
+* Product Performance
+* Regional Result
+* Order-to-Ship Estimation
+* Recommendations
+
 ## Client Background
 
 US-based  SuperStore is a retail company that sells popular consumer furniture, office supplies and technologies across US client and cunsomer. Established in 2011, the company has grown and expanded in the last few years.
@@ -14,8 +27,6 @@ Reporting to the Head of Operations, an in-depth analysis was conducted to evalu
   <img src="https://github.com/AlHafidzLuhurDarma/US-SuperStore/blob/main/visualization/Screenshot%202026-01-28%20185818.png">
 </p>
 
-## Dataset Structure
-The database structure as seen below consists of four columns: orders, customers, geo_lookup, and order_status, with a total row count of 5994 records.
 
 
 ## Executive Summary
