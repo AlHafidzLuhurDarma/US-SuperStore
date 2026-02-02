@@ -10,11 +10,21 @@ Reporting to the Head of Operations, an in-depth analysis was conducted to evalu
 *	Regional results - Evaluating regional demand and product performance within regions to identify areas for improvement.
 *	With an addition of Machine Learning model for Order-to-Ship time estimation for their customers.
 
+<p align='center'>
+  <img src="https://github.com/AlHafidzLuhurDarma/US-SuperStore/blob/main/visualization/Screenshot%202026-01-28%20185818.png">
+</p>
+
 ## Dataset Structure
 The database structure as seen below consists of four columns: orders, customers, geo_lookup, and order_status, with a total row count of 5994 records.
 
 
-## Sales Revenue Analysis
+## Executive Summary
+
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/US-SuperStore/blob/main/visualization/Screenshot%202026-01-29%20101726.png">
+</p>
+
+### Sales Revenue Analysis
 **1. Revenue Growth and Peak Performance**
 *	Every year the Sales has been consistently growing since 2014.
 *	2017 become the strongest year, with sales consistently growing each quarter as a result of the, generating 354,9M.
@@ -33,6 +43,11 @@ The database structure as seen below consists of four columns: orders, customers
 *	The Q1 evenue decline suggests a major downturn, likely caused by external market conditions, reduced consumer demand, or internal operational shifts.
 
 ## Insight Deep-Dive
+
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/US-SuperStore/blob/main/visualization/Screenshot%202026-01-29%20105808.png">
+</p>
+
 
 ### Sales Trend
 
@@ -70,6 +85,11 @@ The database structure as seen below consists of four columns: orders, customers
 *	Q4 amplifies growth, Q1 resets demand: Q4 acts as a demand accelerator (promotions, year-end spending), while Q1 reflects a natural post-peak slowdown rather than underperformance.
 
 ## Product Performance
+
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/US-SuperStore/blob/main/visualization/Screenshot%202026-01-29%20202641.png">
+</p>
+
 ### The Best and Worst
 *	The Furniture Category had consistently strong sales year over year totaling $550,39M and it is the highest revenue generating Category product overall
 *	Within the Furniture category, Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish had the highest sales with 30,04M in total.
@@ -93,6 +113,10 @@ The database structure as seen below consists of four columns: orders, customers
 
 ## Regional Result
 
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/US-SuperStore/blob/main/visualization/Screenshot%202026-01-29%20203035.png">
+</p>
+
 1. The West region contributes the most to sales revenue for each US SuperStore product.
 *	32,31% of total sales are coming from the West region.
 *	$365,34 million in in total. Peaked at December 2014 ($17,56M of sales). With California as the biggest contributor in the West region ($247,18M of sales).
@@ -102,8 +126,11 @@ The database structure as seen below consists of four columns: orders, customers
 3. The Worst performing City is North Dakota in Central Region, only contributing $87,78K in total sales. But it seems like a new Branch of US SuperStore because the records sales started in May 2017.
 4. Central Region has a massive spike in September 2016, probably due to special occasions.
 
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/US-SuperStore/blob/main/visualization/Screenshot%202026-01-29%20210155.png">
+</p>
 
-Order-to-Ship Estimation
+## Order-to-Ship Estimation
 In addition to sales performance analysis, US SuperStore also requested me to developed an Order-to-Ship Time Estimator. The model that I developed that can predict shipping time with +86% accuracy, helping set realistic delivery expectations for customers and reduce complaints.
 
 Based on US SuperStore Customer Service, Customers often ask how long it will take from order placement until shipment. Currently, this is estimated manually or using fixed rules, which leads to inconsistent expectations and customer dissatisfaction. To address this, we built a data-driven estimator using historical order and shipping data.
@@ -124,6 +151,10 @@ The estimator learns from historical orders to understand patterns that affect h
 
 ### Order Deep-Dive
 By using 1 Order as an example, we can get an information regarding how much factors that influence the time for Order to Ship, as an example below is an example from random order
+
+<p align="center">
+  <img src="https://github.com/AlHafidzLuhurDarma/US-SuperStore/blob/main/visualization/download.png" width=500 height=500>
+</p>
 Predicted Shipping Time is 2.2 days and the Average Shipping Time is 4.0 days
 Key Factors:
 * Shipping mode is the main factor, in this case the Orders using First Class (non-Standard) ship ~1.9 days faster than average.
