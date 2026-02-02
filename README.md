@@ -162,11 +162,15 @@ By using 1 Order as an example, we can get an information regarding how much fac
 <p align="center">
   <img src="https://github.com/AlHafidzLuhurDarma/US-SuperStore/blob/main/visualization/download.png" width=500 height=500>
 </p>
+
+
 Predicted Shipping Time is 2.2 days and the Average Shipping Time is 4.0 days
 Key Factors:
 * Shipping mode is the main factor, in this case the Orders using First Class (non-Standard) ship ~1.9 days faster than average.
-*	Calendar and location effects are minor because Month, order date, and state only shift delivery time by ±0.05 days.
-*	Most features have negligible impact, indicating a stable and interpretable model.
+* Calendar and location effects are minor because Month, order date, and state only shift delivery time by ±0.05 days.
+* Most features have negligible impact, indicating a stable and interpretable model.
+
+
 This model conclude that Faster delivery is primarily driven by shipping choice, not customer location or order timing.
 
 
