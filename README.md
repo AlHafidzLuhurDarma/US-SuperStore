@@ -160,7 +160,7 @@ The estimator learns from historical orders to understand patterns that affect h
 By using 1 Order as an example, we can get an information regarding how much factors that influence the time for Order to Ship, as an example below is an example from random order
 
 <p align="center">
-  <img src="https://github.com/AlHafidzLuhurDarma/US-SuperStore/blob/main/visualization/download.png" width=500 height=500>
+  <img src="https://github.com/AlHafidzLuhurDarma/US-SuperStore/blob/main/visualization/Screenshot%202026-02-02%20200733.png" width=500 height=500>
 </p>
 
 
