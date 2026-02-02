@@ -163,5 +163,23 @@ Key Factors:
 This model conclude that Faster delivery is primarily driven by shipping choice, not customer location or order timing.
 
 
+## Recommendations
 
+**1. Capitalize on Strong Q3–Q4 Performance**
+* Increase marketing spend, promotional campaigns, and inventory allocation in Q3 and Q4, as these quarters consistently generate the highest revenue.
+* Replicate strategies used in Q4 2017 (the peak period) to identify best-performing products, campaigns, and channels.
+* Plan major product launches or high-value bundles toward late Q3 or early Q4 to maximize seasonal demand.
+
+**2. Improve Q1 Performance with Targeted Strategies**
+* Introduce post-holiday and early-year promotions in January and February to counteract seasonal demand drop.
+* Offer incentives such as loyalty rewards, limited-time discounts, or subscription renewals to maintain customer engagement after Q4.
+* Shift part of Q4’s momentum into Q1 by running carry-over campaigns (e.g., “New Year Deals” or “Back-to-Routine Offers”).
+
+**3. Address January and February Revenue Weakness**
+* Focus marketing on essential or repeat-purchase products that are less sensitive to seasonal spending.
+* Test smaller, targeted digital campaigns rather than broad promotions to improve ROI during low-sales periods.
+
+**5. Leverage Year-Over-Year Growth Momentum**
+* Despite low absolute values, Q1 shows strong year-over-year growth, indicating long-term potential.
+* Set realistic but progressive growth targets for Q1, focusing on percentage growth rather than absolute revenue.
 
