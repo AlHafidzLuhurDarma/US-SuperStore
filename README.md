@@ -42,6 +42,13 @@ The database structure as seen below consists of four columns: orders, customers
 *	January and February always become the lowest in terms of sales, but still have a growing sales every Year. As an example, January in 2015 sales revenue with ~666.7% ($23,25M) compared to January 2014 ($2,90M).
 *	The Q1 evenue decline suggests a major downturn, likely caused by external market conditions, reduced consumer demand, or internal operational shifts.
 
+**4. Recommendations**
+
+* Q3 and Q4 consistently deliver peak performance, with Q4 2017 setting a historical high. Strategic investments in marketing, inventory, and major campaigns should be prioritized during these quarters to maximize returns.
+* Despite year-over-year growth, January and February remain structurally weak. Targeted early-year promotions, loyalty programs, and post-holiday campaigns are critical to reducing revenue drop-offs after strong Q4 performance.
+* Revenue seasonality is predictable. Planning should align resources, staffing, and spend in advance—scaling up for Q3–Q4 and optimizing costs in Q1 to protect margins without sacrificing growth.
+* Fluctuations in Q1 indicate execution inefficiencies rather than lack of demand. Smoother campaign timing, consistent pricing strategies, and tighter operational coordination can reduce volatility and improve baseline performance.
+
 ## Insight Deep-Dive
 
 <p align="center">
