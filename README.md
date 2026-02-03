@@ -76,7 +76,7 @@ Reporting to the Head of Operations, an in-depth analysis was conducted to evalu
 
 
 **2. Declining Growth Throughout Every Year with each Q1 in every experienced a start with downward trend.**
-*	Q1: Started with an everage sales $134,51K in Jan, but then it goes lower in February with an average sales of $65,50K. This suggests customer retention, pricing, or product-market fit issues. TechSphere may need to re-strategize through marketing, promotions, or change in pricing.
+*	Q1: Started with an everage sales $134,51K in Jan, but then it goes lower in February with an average sales of $65,50K. This suggests customer retention, pricing, or product-market fit issues. US-SuperStore may need to re-strategize through marketing, promotions, or change in pricing.
 *	Q1 and Q2: Q2 Has a lower value in average sales ($108,99K) compared to Q1 ($116,41K). But, when it comes to Total sales, Q1 is higher, indicating a fluctuative behaviour of Q1 and steady behaviour of Q2.
 *	Q4: Historic high, indicating a high demand from the customers. 
 
@@ -165,6 +165,8 @@ In order to build this model, We use several key factors, including
 * Order Month
 * Order Weekend
 * Shipping day.
+
+
 The estimator learns from historical orders to understand patterns that affect how long shipping takes and on average, the estimator’s prediction differs from the actual shipping time by less than 1 day, indicating reliable operational accuracy.
 
 ### Order Deep-Dive
@@ -182,6 +184,7 @@ Key Factors:
 * Most features have negligible impact, indicating a stable and interpretable model.
 
 
+<br />
 
 This model conclude that Faster delivery is primarily driven by shipping choice, not customer location or order timing.
 
@@ -202,7 +205,7 @@ This model conclude that Faster delivery is primarily driven by shipping choice,
 * Focus marketing on essential or repeat-purchase products that are less sensitive to seasonal spending.
 * Test smaller, targeted digital campaigns rather than broad promotions to improve ROI during low-sales periods.
 
-**5. Leverage Year-Over-Year Growth Momentum**
+**4. Leverage Year-Over-Year Growth Momentum**
 * Despite low absolute values, Q1 shows strong year-over-year growth, indicating long-term potential.
 * Set realistic but progressive growth targets for Q1, focusing on percentage growth rather than absolute revenue.
 
